@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "login-app-eb97f": {
+      "hosting": {
+        "ingresoEgresoApp": [
+          "login-app-eb97f"
+        ]
+      }
+    }
+  }
+}
