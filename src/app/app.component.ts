@@ -7,9 +7,10 @@ import { AuthService } from './services/auth.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ingresoEgresoApp';
-
-  constructor(private authService: AuthService) {
+  
+  constructor( private authService: AuthService ){
     this.authService.initAuthListener();
   }
+
+
 }
